@@ -13,6 +13,8 @@
 		BB7E662325A2A3500098009E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7E662225A2A3500098009E /* Preview Assets.xcassets */; };
 		BB7E662E25A2A3510098009E /* AbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E662D25A2A3510098009E /* AbookTests.swift */; };
 		BB7E663925A2A3510098009E /* AbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E663825A2A3510098009E /* AbookUITests.swift */; };
+		BBA7D5A825AA24290027B91D /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA7D5A725AA24290027B91D /* OnBoarding.swift */; };
+		BBA7D5B025AA28940027B91D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA7D5AF25AA28940027B91D /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BB7E663425A2A3510098009E /* AbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB7E663825A2A3510098009E /* AbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbookUITests.swift; sourceTree = "<group>"; };
 		BB7E663A25A2A3510098009E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA7D5A725AA24290027B91D /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		BBA7D5AF25AA28940027B91D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,8 @@
 		BB7E661A25A2A34C0098009E /* Abook */ = {
 			isa = PBXGroup;
 			children = (
+				BBA7D5A625AA241C0027B91D /* View */,
 				BB7E661B25A2A34C0098009E /* AbookApp.swift */,
-				BB7E661D25A2A34C0098009E /* ContentView.swift */,
 				BB7E661F25A2A3500098009E /* Assets.xcassets */,
 				BB7E662425A2A3500098009E /* Info.plist */,
 				BB7E662125A2A3500098009E /* Preview Content */,
@@ -128,6 +132,16 @@
 				BB7E663A25A2A3510098009E /* Info.plist */,
 			);
 			path = AbookUITests;
+			sourceTree = "<group>";
+		};
+		BBA7D5A625AA241C0027B91D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB7E661D25A2A34C0098009E /* ContentView.swift */,
+				BBA7D5A725AA24290027B91D /* OnBoarding.swift */,
+				BBA7D5AF25AA28940027B91D /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB7E661E25A2A34C0098009E /* ContentView.swift in Sources */,
+				BBA7D5B025AA28940027B91D /* HomeView.swift in Sources */,
+				BBA7D5A825AA24290027B91D /* OnBoarding.swift in Sources */,
 				BB7E661C25A2A34C0098009E /* AbookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
